@@ -12,9 +12,11 @@ pygame.mixer.init()
 passiveVolume = 0
 aggroVolume = 0
 
-config = Path(f"C:/Users/trist/OneDrive/Desktop/Code/JJS_Dynamic_Music/Config.txt")
-aggroFolder = Path(f"C:/Users/trist/OneDrive/Desktop/Code/JJS_Dynamic_Music/AggressiveMusic")
-passiveFolder = Path(f"C:/Users/trist/OneDrive/Desktop/Code/JJS_Dynamic_Music/PassiveMusic")
+dynamicMusic = script_dir = Path(__file__).resolve().parent
+print(dynamicMusic)
+config = dynamicMusic / "Config.txt"
+aggroFolder = dynamicMusic / "AggressiveMusic"
+passiveFolder = dynamicMusic / "PassiveMusic"
 aggroList = []
 passiveList =  []
 for file in aggroFolder.glob("*.mp3"):
