@@ -10,6 +10,8 @@ I promise this isn't a virus python needs those libraries to run the program
 
 Hello, and thank you for looking at JJS Dynamic Music!
 
+**FOR THE PROGRAM TO WORK YOU NEED TO ADD MP3 FILES TO THE RESPECTIVE MUSIC FOLDERS**
+
 This is free and if you paid for this you've been scammed or smth
 
 
