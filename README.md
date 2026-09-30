@@ -24,7 +24,7 @@ You can press - to force stop the music
 
 You can press ] to force start it (or switch songs if you just HATE the current one)
 
-You can press + to toggle the program
+You can press + to toggle the program (Barely works)
 
 
 
